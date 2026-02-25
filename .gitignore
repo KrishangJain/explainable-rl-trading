@@ -1,0 +1,55 @@
+# =========================
+# Python / Virtual Envs
+# =========================
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+*.log
+
+# =========================
+# Jupyter / temp files
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PyTorch / ML artifacts
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# SHAP / cache
+# =========================
+.cache/
+__shap_cache__/
+
+# =========================
+# Python build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Local secrets / configs
+# =========================
+.env
+.env.local
